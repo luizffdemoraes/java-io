@@ -3,7 +3,7 @@ import java.io.*;
 
 public class TesteEscrita {
     public static void main(String[] args) throws IOException {
-        // Fluxo de Entrada com Arquivo
+        // Fluxo de Escrita de Arquivo
         OutputStream fos = new FileOutputStream( "lorem2.txt");
         Writer ows = new OutputStreamWriter(fos); // transformar bit e bites em caracters
         BufferedWriter bw = new BufferedWriter(ows);
