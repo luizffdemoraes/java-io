@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class TesteEscrita2 {
+public class TesteEscritaFileWriter {
     public static void main(String[] args) throws IOException {
         // Fluxo de Escrita de Arquivo
 //        OutputStream fos = new FileOutputStream( "lorem2.txt");
