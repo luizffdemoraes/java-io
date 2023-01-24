@@ -5,7 +5,7 @@ public class TesteLeitura {
     public static void main(String[] args) throws IOException {
         // Fluxo de Entrada com Arquivo
         FileInputStream fis = new FileInputStream("lorem.txt");
-        InputStreamReader isr = new InputStreamReader(fis); // transformar bit e bites em caracters
+        InputStreamReader isr = new InputStreamReader(fis, "UTF-8"); // transformar bit e bites em caracters
         BufferedReader br = new BufferedReader(isr);
 
         String linha = br.readLine();
